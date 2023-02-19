@@ -1,0 +1,32 @@
+.dropdown{
+    justify-content:space-between;
+    display: flex;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: #2a2b3c;
+    margin-top: 80px;
+    background: transparent;
+    box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.15);
+}
+.ttt{ 
+        background-color: #b091e2; 
+        color: #000000; 
+        display: flex;
+        border: none;
+        align-items: center;
+        overflow: hidden;
+        padding: 6px 10px;
+        width:100px;
+        transition-duration: 0.2s;
+        cursor: pointer;
+}
+.ttt .tt{
+    background: transparent;
+}
+
+.ttt:hover {
+    background-color: #000000;
+    color: #b091e2;
+  }
+  
